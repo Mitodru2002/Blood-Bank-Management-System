@@ -1,0 +1,171 @@
+.Donate_blood{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+
+}
+
+.form-select{
+  width: 38rem;
+  padding: 26px 12px;
+  margin: 11px;
+  border-radius: 17px;
+  border: 2px solid #3b2e2e;
+  box-shadow: revert-layer;
+  position: relative;
+}
+button{
+    text-transform: none;
+    color: white;
+    background: #fd0000;
+    width: 99px;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 15px;
+}
+.input_table{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+  /* .donate_img{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDBTPZHSybbs617PJzEz2i4AM4pCPGL-QBiw&s");
+    margin: 0;
+    padding: 0;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  } */
+  .text{
+    font-size: 18px;
+    color: #000900;
+  }
+
+  
+  .form-check-blood {
+    display: inline-block;
+    margin: 4rem 50rem;
+    padding: 16px 52px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+  
+  .form-check-label {
+    margin-left: 5px; /* Adjust as needed */
+  }
+  
+  input[type=radio] {
+    margin-top: 11px;
+    width: fit-content;
+}
+
+.blood-section{
+  position: absolute;
+  z-index: -1;
+  margin: 6rem 0;
+  height: 100vh;
+   background: url("https://www.sriramakrishnahospital.com/wp-content/uploads/2021/06/Blood-Donation-1.jpg");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+ 
+}
+/* .donateBloodimg{
+  background: url('https://www.sriramakrishnahospital.com/wp-content/uploads/2021/06/Blood-Donation-1.jpg');
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+.bloodInvenTable{
+  color: white;
+  font-weight: bold;
+
+
+}
+/* *************************************** Analytics ********************************************* */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.cards {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  justify-items: center;
+  align-items: center;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.blood-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  padding: 20px 2rem;
+  width: 33rem;
+  margin: 2rem 0;
+  background-image: linear-gradient(to bottom right, #a5b3c0, #000900);
+  height: 28rem;
+}
+
+
+.blood-card-body {
+  text-align: center;
+}
+
+.blood-card-text {
+  margin: 26px 0;
+    color: #f2f2f2;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: black;
+    padding: 24px 7px;
+}
+.blood-card-head{
+  font-size: 17px;
+  font-weight: bold !important;
+  color: #f2f2f2;
+  margin-top: 22px;
+}
+.blood_group{
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 9px;
+  background: black;
+}
+
+.get-table{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30rem;
+
+}
+

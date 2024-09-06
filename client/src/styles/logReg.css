@@ -1,0 +1,48 @@
+/* ===============================loginform */
+
+.login-form{
+    display: flex;
+  }
+  .login-img img {
+    min-height: 100%;
+    width: 100%;
+  }
+  .form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     min-height: 100vh;
+  }
+  .form-group input{
+    width: 25rem;
+    border-radius: 8px;
+  }
+  
+  /*================================= register form */
+  .register-form{
+  display: flex;
+  }
+  .register-img img{
+    min-height: 100%;
+    width: 100%;
+  }
+  
+  /*========================= radio buttons ==================================*/
+  .radio-buttons{
+  padding: 23px 0;
+  cursor: pointer;
+  justify-content: space-around;
+  font-size: 21px;
+  }
+  .pointer{
+    cursor: pointer;
+  }
+  
+  .form-check{
+    padding: 0 25px;
+  }
+  
+  input[type=radio]{
+    margin-top: 11px;
+    cursor: pointer;
+  }
